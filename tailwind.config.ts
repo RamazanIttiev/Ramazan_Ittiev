@@ -22,8 +22,10 @@ const config: Config = {
 			},
 		},
 		fontFamily: {
-			sans: ['Graphik', 'sans-serif'],
+			sans: ['Poppins', 'sans-serif'],
 		},
+		fontSize: { '3xl': ['15vh', '1'] },
+		fontWeight: { thin: '100', normal: '400', bold: '800', extraBold: '900' },
 		borderRadius: {
 			none: '0',
 			sm: '.125rem',
@@ -37,7 +39,8 @@ const config: Config = {
 			secondaryText: '',
 			mainBg: '',
 			secondaryBg: '',
-			hintColor: '',
+			accent1: '#fafafa',
+			accent2: '#888',
 			linkColor: '',
 			linkColorHover: '',
 			buttonColor: '',
