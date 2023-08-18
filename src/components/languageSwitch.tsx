@@ -18,7 +18,7 @@ export const LanguageSwitch = () => {
 
 	return (
 		<button
-			className={'absolute left-5 top-4 w-6 transition-all duration-300 hover:rotate-180 '}
+			className={'absolute left-5 top-4 w-6 transition-all duration-300 hover:rotate-30 '}
 			onClick={() => handleLanguage(activeLang === 'eng' ? 'rus' : 'eng')}>
 			<Image
 				src={activeLang === 'eng' ? engIcon : rusIcon}
