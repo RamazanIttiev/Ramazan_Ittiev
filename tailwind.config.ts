@@ -9,16 +9,10 @@ const config: Config = {
 	],
 	theme: {
 		extend: {
-			backgroundImage: {
-				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-			},
 			screens: {
-				'2xl': '1440px',
-				'3xl': '1600px',
 				tablet: '768px',
 				laptop: '1280px',
-				desktop: '1600px',
+				desktop: '1440px',
 			},
 		},
 		fontFamily: {
@@ -37,16 +31,16 @@ const config: Config = {
 		borderRadius: {
 			none: '0',
 			sm: '.125rem',
-			DEFAULT: '.25rem',
+			base: '.25rem',
 			lg: '.5rem',
 		},
 		colors: {
 			transparent: 'transparent',
 			current: 'currentColor',
-			mainText: '',
+			mainText: '#fff',
 			secondaryText: '',
-			mainBg: '',
-			secondaryBg: '',
+			mainBg: 'rgb(29 29 29)',
+			secondaryBg: 'rgb(46 46 46)',
 			accent1: '#fafafa',
 			accent2: '#888',
 			linkColor: '',

@@ -35,7 +35,7 @@ export const SocialLinks = () => {
 	return (
 		<div
 			className={
-				'absolute bottom-0 right-1/2 flex w-fit translate-x-[50%] tablet:left-0 tablet:top-[50%] tablet:translate-y-[-25%] tablet:flex-col'
+				'absolute bottom-0 right-1/2 flex w-fit tablet:left-4 tablet:top-[50%] tablet:translate-y-[-25%] tablet:flex-col'
 			}>
 			{socialLinks.map(({ title, icon }) => {
 				return (
@@ -43,10 +43,12 @@ export const SocialLinks = () => {
 						key={title}
 						href={'#'}
 						target={'_blank'}
-						className={
-							'mb-3 block cursor-pointer p-2 transition last:mb-0 last:pb-0 tablet:hover:translate-x-4'
-						}>
-						<Image src={icon} alt={title} className={'w-[24px] max-w-max'} />
+						className={'group mb-3 block cursor-pointer p-2 last:mb-0 last:pb-0 '}>
+						<Image
+							src={icon}
+							alt={title}
+							className={'w-[24px] max-w-max transition group-hover:tablet:translate-x-4'}
+						/>
 					</a>
 				);
 			})}
