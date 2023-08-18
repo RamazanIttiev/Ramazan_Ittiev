@@ -35,7 +35,7 @@ export const SocialLinks = () => {
 	return (
 		<div
 			className={
-				'absolute bottom-0 right-1/2 flex w-fit tablet:left-4 tablet:top-[50%] tablet:translate-y-[-25%] tablet:flex-col'
+				'absolute bottom-0 right-1/2 flex w-fit tablet:left-4 tablet:top-[50%] tablet:translate-y-[-25%] translate-x-[50%] tablet:translate-x-0 tablet:flex-col'
 			}>
 			{socialLinks.map(({ title, icon }) => {
 				return (

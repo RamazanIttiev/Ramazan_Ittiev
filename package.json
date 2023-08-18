@@ -16,8 +16,6 @@
     "eslint": "8.47.0",
     "eslint-config-next": "13.4.13",
     "framer-motion": "^10.15.1",
-    "lord-icon-element": "^4.1.1",
-    "lottie-web": "^5.12.2",
     "next": "13.4.13",
     "postcss": "8.4.27",
     "react": "18.2.0",
@@ -29,7 +27,6 @@
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
     "cssnano": "^6.0.1",
     "prettier": "^3.0.1",
-    "prettier-plugin-tailwindcss": "^0.5.2",
     "tailwind-merge": "^1.14.0"
   }
 }

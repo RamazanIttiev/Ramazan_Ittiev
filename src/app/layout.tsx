@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google';
 
 import { twMerge } from 'tailwind-merge';
 
+import { Hamburger } from '@/components/hamburger';
 import { LanguageSwitch } from '@/components/languageSwitch';
 import { SocialLinks } from '@/components/socialLinks';
 
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 					<SocialLinks />
 					<div className={'flex h-[100%] items-center justify-center'}>{children}</div>
 					<LanguageSwitch />
+					<Hamburger />
 				</main>
 			</body>
 		</html>
