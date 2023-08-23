@@ -1,5 +1,3 @@
-import { SocialLinks } from '@/components/socialLinks';
-
 export default function Home() {
 	return (
 		<div className={'pl-4 pr-4 tablet:max-w-[50%]'}>
